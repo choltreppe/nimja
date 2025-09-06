@@ -146,7 +146,7 @@ index.nimja:
 {% endblock footer %} {# the 'footer' in endblock is completely optional #}
 ```
 
-master.nimja
+partials/_master.nimja
 ```twig
 {#
 
@@ -1279,3 +1279,4 @@ Changelog
 - 0.5.1 Added self variable, to print blocks multiple times
 - 0.5.0 Added hot code reloading.
 - 0.4.2 Added `includeRawStatic` and `includeStaticAsDataurl`
+
